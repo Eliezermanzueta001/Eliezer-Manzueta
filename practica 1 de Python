@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM4WXImOMvyAwXtN1AoWbZL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Eliezermanzueta001/Eliezer-Manzueta/blob/main/practica%201%20de%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "W_Rquhm8AviK",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f8867652-dee1-40bd-8369-4a45a5b4f635"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el 1er numero: 10\n",
+            "Ingrese el 1er numero: 20\n",
+            "La suma de los 2 numeros es: \n",
+            "30.0\n",
+            "La resta de los 2 numeros es: \n",
+            "-10.0\n",
+            "La multiplicacion de los 2 numeros es: \n",
+            "30.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "x = float(input(\"Ingrese el 1er numero: \"))\n",
+        "y = float(input(\"Ingrese el 1er numero: \"))\n",
+        "print(\"La suma de los 2 numeros es: \")\n",
+        "c = x + y\n",
+        "print(c)\n",
+        "print(\"La resta de los 2 numeros es: \")\n",
+        "c = x - y\n",
+        "print(c)\n",
+        "print(\"La multiplicacion de los 2 numeros es: \")\n",
+        "c = x + y\n",
+        "print(c)"
+      ]
+    }
+  ]
+}
